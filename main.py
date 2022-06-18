@@ -8,7 +8,7 @@ import json
 
 def create_sim():
     data = pd.read_csv(
-        'C:/Users/risha/Downloads/movie_recommendation-main/main_data.csv')
+        'C:/Users/Shubham/Downloads/movie_recommendation-main/main_data.csv')
     # creating a count matrix
     cv = CountVectorizer()
     count_matrix = cv.fit_transform(data['comb'])
